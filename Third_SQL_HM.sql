@@ -6,8 +6,8 @@ WHERE country_names LIKE 'A%a' ;
 
 -- List the country names in the country column of the country table, consisting of at least 6 characters and ending with the 'n' character.
 
-SELECT country_names FROM country
-WHERE country_names LIKE '_____%n' ;
+SELECT country FROM country
+WHERE country LIKE '_____%n' ;
 
 -- In the title column of the movie table, list the movie names containing at least 4 'T' characters, regardless of upper or lower case letters.
 
